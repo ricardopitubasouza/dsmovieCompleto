@@ -1,5 +1,5 @@
 .dsmovie-form-container{
-    max-width: 480px;
+    max-width: 600px;
     margin: 40px auto;
     padding: 20px;
 }
@@ -21,6 +21,16 @@
     display: flex;
     justify-content: center;
 }
+
+.dsmovie-card-bottom-container h3 {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
 
 
 

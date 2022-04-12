@@ -1,12 +1,12 @@
-import './style.css';
+import './styles.css';
 
 function Form() {
     const movie = {
         id: 1,
-        image: "https://www.themoviedb.org/t/p/w553_and_h300_bestv2/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg",
+        image: "https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg",
         title: "the Witcher",
         count: 2,
-        Score: 4.5
+        score: 4.5
     };
 
     return (
@@ -36,8 +36,7 @@ function Form() {
                 <button className="btn btn-primary dsmovie-btn mt-3">Cancelar</button>
             </div>
         </div>
-
-    )
+    );
 }
 
 export default Form;
