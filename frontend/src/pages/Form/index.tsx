@@ -9,11 +9,11 @@ function Form() {
         count: 2,
         score: 4.5
     };
-
+       
     return (
         <div className="dsmovie-form-container">
-            <img className="dsmovie-movie-card-image" src={movie.image} alt={movie.title} />
-            <div className="dsmovie-card-bottom-container">
+            <img className="dsmovie-movie-card-image-avaliation" src={movie.image} alt={movie.title} />
+            <div className="dsmovie-card-bottom-container-avaliation">
                 <h3>{movie.title}</h3>
                 <form className="dsmovie-form">
                     <div className="form-group dsmovie-form-group">
@@ -21,7 +21,7 @@ function Form() {
                         <input type="email" className="form-control" id="email" />
                     </div>
                     <div className="form-group dsmovie-form-group">
-                        <label htmlFor="score">Inform sua avaliação</label>
+                        <label htmlFor="score">Informe sua avaliação</label>
                         <select className="form-control" id="score">
                             <option>1</option>
                             <option>2</option>
@@ -35,7 +35,7 @@ function Form() {
                     </div>
                 </form>
                 <Link to="/">
-                    <button className="btn btn-primary dsmovie-btn mt-3">Cancelar</button>
+                    <button className="btn btn-primary dsmovie-btn">Cancelar</button>
                 </Link>
             </div>
         </div>

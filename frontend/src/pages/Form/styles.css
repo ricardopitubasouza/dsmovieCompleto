@@ -25,7 +25,7 @@
 }
 
 .dsmovie-form {
-    align-items: center;
+    width: 470px;
 }
 
 .dsmovie-form-group{
@@ -50,17 +50,54 @@
     justify-content: center;
 }
 
-.dsmovie-card-bottom-container button{
-    background-color: var(--color-primary);
-    font-weight: 700;
-    margin: 0 130px;
-    height: 39px;
-    width: 200px;
-}
-
 .dsmovie-form-btn-container button {
     width: 200px;
 }
+
+.dsmovie-btn {
+    margin: 10px 78px;
+    background-color: var(--color-primary);
+    width: 200px;
+}
+
+.dsmovie-card-bottom-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white);
+    width: 295px;
+    height: 380px;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.dsmovie-card-bottom-container h3{
+    margin: 10px;
+}
+
+.dsmovie-card-bottom-container-avaliation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 8px 8px 8px 8px;
+}
+
+.dsmovie-card-bottom-container-avaliation h3{
+    margin: 25px;
+}
+
+.dsmovie-movie-card-image{
+    width: 295px;
+    border-radius: 8px 8px 0 0;
+}
+
+.dsmovie-score-container{
+    margin: 20px 0 0 0;
+}
+
+
+
+
 
 
 
