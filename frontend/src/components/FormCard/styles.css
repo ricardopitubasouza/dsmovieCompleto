@@ -21,7 +21,7 @@
 .dsmovie-form-container img {
     display: flex;
     justify-self: center;
-    margin: calc(-20px);
+    margin: calc(-20px) auto calc(-20px) calc(-20px);
     max-width: 480px;
     border-radius: 8px 8px 0 0;
 }
