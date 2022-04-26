@@ -12,7 +12,7 @@
 .dsmovie-form-container{
     background-color: var(--white);
     max-width: 480px;
-    height: 650px;
+    max-height: 650px;
     margin: 40px auto 120px auto;
     padding: 20px;
     border-radius: 8px 8px 8px 8px;
@@ -21,7 +21,7 @@
 .dsmovie-form-container img {
     display: flex;
     justify-content: center;
-    margin: calc(-20px) auto calc(-20px) calc(-20px);
+    margin: calc(-20px) 0 calc(-20px) calc(-20px);
     max-width: 109.3%;
     border-radius: 8px 8px 0 0;
 }
@@ -42,7 +42,7 @@
 
 .dsmovie-form-group input, select{
     margin: 0px 10px 0 10px;
-    max-width: 96%;
+    max-width: 450px;
 }
 
 .dsmovie-form-btn-container{
@@ -98,7 +98,6 @@
 .dsmovie-score-container{
     margin: 20px 0 0 0;
 }
-
 
 
 
